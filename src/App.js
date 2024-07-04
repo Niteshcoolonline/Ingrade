@@ -3,7 +3,7 @@ import Courses from './Courses';
 import Crousal from './Crousal';
 import Feature2 from './Feature2';
 import Feature3 from './Feature3';
-import Courses2 from './Courses';
+import Courses2 from './Courses2';
 import Header from './Header';
 import SuccessStories from './SuccessStories';
 
@@ -47,90 +47,185 @@ export function App() {
             </div>
           </div>
         </div>
-
-        <div className="news-updates">
+        <br />
+        <br />
+        <section className="py-12 md:py-24 lg:py-32">
           <div className="container">
-
-            <div className="row">
-              <div className="col-lg-9">
-                <div className="section-heading">
-                  <h2 className="text-black">News &amp; Updates</h2>
-                  <a href="#">Read All News</a>
+            <div className="row justify-content-center text-center">
+              <div className="col-12">
+                <div className="mb-4">
+                  <h2 className="section-title-underline mb-3">
+                    <span>Our Hiring Partners</span>
+                  </h2>
+                  <p className="text-muted fs-md-2 fs-lg-1 fs-xl-2">
+                    We work with leading companies across various industries to provide the best opportunities for our candidates.
+                  </p>
                 </div>
-                <div className="row">
-                  <div className="col-lg-6">
-                    <div className="post-entry-big">
-                      <a href="news-single.html" className="img-link"><img src="images/blog_large_1.jpg" alt="Image" className="img-fluid" /></a>
-                      <div className="post-content">
-                        <div className="post-meta">
-                          <a href="#">June 6, 2019</a>
-                          <span className="mx-1">/</span>
-                          <a href="#">Admission</a>, <a href="#">Updates</a>
-                        </div>
-                        <h3 className="post-heading"><a href="news-single.html">Campus Camping and Learning Session</a></h3>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="post-entry-big horizontal d-flex mb-4">
-                      <a href="news-single.html" className="img-link mr-4"><img src="images/blog_1.jpg" alt="Image" className="img-fluid" /></a>
-                      <div className="post-content">
-                        <div className="post-meta">
-                          <a href="#">June 6, 2019</a>
-                          <span className="mx-1">/</span>
-                          <a href="#">Admission</a>, <a href="#">Updates</a>
-                        </div>
-                        <h3 className="post-heading"><a href="news-single.html">Campus Camping and Learning Session</a></h3>
-                      </div>
-                    </div>
-
-                    <div className="post-entry-big horizontal d-flex mb-4">
-                      <a href="news-single.html" className="img-link mr-4"><img src="images/blog_2.jpg" alt="Image" className="img-fluid" /></a>
-                      <div className="post-content">
-                        <div className="post-meta">
-                          <a href="#">June 6, 2019</a>
-                          <span className="mx-1">/</span>
-                          <a href="#">Admission</a>, <a href="#">Updates</a>
-                        </div>
-                        <h3 className="post-heading"><a href="news-single.html">Campus Camping and Learning Session</a></h3>
-                      </div>
-                    </div>
-
-                    <div className="post-entry-big horizontal d-flex mb-4">
-                      <a href="news-single.html" className="img-link mr-4"><img src="images/blog_1.jpg" alt="Image" className="img-fluid" /></a>
-                      <div className="post-content">
-                        <div className="post-meta">
-                          <a href="#">June 6, 2019</a>
-                          <span className="mx-1">/</span>
-                          <a href="#">Admission</a>, <a href="#">Updates</a>
-                        </div>
-                        <h3 className="post-heading"><a href="news-single.html">Campus Camping and Learning Session</a></h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3">
-                <div className="section-heading">
-                  <h2 className="text-black">Campus Videos</h2>
-                  <a href="#">View All Videos</a>
-                </div>
-                <a href="https://vimeo.com/45830194" className="video-1 mb-4" data-fancybox="" data-ratio="2">
-                  <span className="play">
-                    <span className="icon-play"></span>
-                  </span>
-                  <img src="images/course_5.jpg" alt="Image" className="img-fluid" />
-                </a>
-                <a href="https://vimeo.com/45830194" className="video-1 mb-4" data-fancybox="" data-ratio="2">
-                  <span className="play">
-                    <span className="icon-play"></span>
-                  </span>
-                  <img src="images/course_5.jpg" alt="Image" className="img-fluid" />
-                </a>
               </div>
             </div>
+            <div className="row row-cols-4 row-cols-sm-8 row-cols-lg-16 gap-3 gap-lg-5 animate-marquee">
+              {/* Placeholder logos */}
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="/placeholder.svg"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              {/* Repeat this block 15 more times */}
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="/placeholder.svg"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="/placeholder.svg"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="/placeholder.svg"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="/placeholder.svg"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="/placeholder.svg"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="/placeholder.svg"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="/placeholder.svg"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="/placeholder.svg"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="/placeholder.svg"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="/placeholder.svg"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="/placeholder.svg"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="/placeholder.svg"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="/placeholder.svg"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              {/* End repeat block */}
+            </div>
           </div>
-        </div>
+        </section>
+        <br />
+        <br />
 
         <div className="site-section ftco-subscribe-1" style={{ backgroundImage: `url(images/bg_1.jpg)` }}>
           <div className="container">
