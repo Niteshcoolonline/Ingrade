@@ -23,22 +23,22 @@ export function App() {
 
         <div className="section-bg style-1" style={{ backgroundImage: `url(images/hero_1.jpg)` }}>
           <div className="container">
-            <div className="row">
-              <div className="col-lg-4 col-md-6 mb-5 mb-lg-0">
+            <div className="d-flex justify-content-center" style={{gap: '100px'}}>
+              <div className="col-md-4 educationalContentCard">
                 <span className="icon flaticon-mortarboard"></span>
                 <h3>Interactive Online Classes</h3>
                 <p>-Live classes with real-time interaction</p>
                 <p>-Pre recorded video lectures for flexible learning</p>
                 <p>-Webinars and workshops with industry experts</p>
               </div>
-              <div className="col-lg-4 col-md-6 mb-5 mb-lg-0">
+              <div className="col-md-4 educationalContentCard">
                 <span className="icon flaticon-school-material"></span>
                 <h3>Study Material</h3>
                 <p>-Downloadable PDFs</p>
                 <p>-Lecture notes and summaries</p>
                 <p>-Quizzes and Assessments</p>
               </div>
-              <div className="col-lg-4 col-md-6 mb-5 mb-lg-0">
+              <div className="col-md-4 educationalContentCard">
                 <span className="icon flaticon-library"></span>
                 <h3>Regular quizzes to assess understanding</h3>
                 <p>Mock exams and practice tests</p>
@@ -136,14 +136,41 @@ export function App() {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-7">
-                <h2>Subscribe to us!</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,</p>
+                <h2>Book your Demo Session, and Get Amazing Courses
+                Today!!!</h2>
+                <p>Get an amazing career pathway which helps you to excel your career in the best possible way. Access to the community of experts who guide you to get the best out of you.</p>
               </div>
               <div className="col-lg-5">
-                <form action="" className="d-flex">
-                  <input type="text" className="rounded form-control mr-2 py-3" placeholder="Enter your email" />
-                  <button className="btn btn-primary rounded py-3 px-4" type="submit">Send</button>
-                </form>
+              <form>
+              <div class="form-group">
+                  <label for="name" class='label-color'>Name</label>
+                  <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter name" />
+                </div>
+                <div class="form-group">
+                  <label for="email" class='label-color'>Email address</label>
+                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" />
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="number" class='label-color'>Phone Number</label>
+                  <input type="text" class="form-control" id="number" aria-describedby="emailHelp" placeholder="Enter email" />
+                  <small id="numberHelp" class="form-text text-muted">We'll never share your number with anyone else.</small>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="type" id="fresher" value="Fresher" />
+                  <label class="form-check-label label-color" for="fresher" >
+                    Fresher
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="type" id="working" value="Working Professional" />
+                  <label class="form-check-label label-color" for="working">
+                    Working Professional
+                  </label>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
               </div>
             </div>
           </div>
@@ -153,34 +180,25 @@ export function App() {
         <div className="footer">
           <div className="container">
             <div className="row">
-              <div className="col-lg-3">
-                <p className="mb-4"><img src="images/logo.png" alt="Image" className="img-fluid" /></p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto iure.</p>
-                <p><a href="#">Learn More</a></p>
+              <div className="col-lg-4">
+                <p className="mb-4"><img src="images/logo4.jpg" alt="Image" className="img-fluid" /></p>
+                <p>Fast Forward your career in Tech Fields with InGrade
+                Best-in-class Training Programs</p>
               </div>
-              <div className="col-lg-3">
-                <h3 className="footer-heading"><span>Our Campus</span></h3>
-                <ul className="list-unstyled">
-                  <li><a href="#">Acedemic</a></li>
-                  <li><a href="#">News</a></li>
-                  <li><a href="#">Our Interns</a></li>
-                  <li><a href="#">Our Leadership</a></li>
-                  <li><a href="#">Careers</a></li>
-                  <li><a href="#">Human Resources</a></li>
-                </ul>
-              </div>
-              <div className="col-lg-3">
+              <div className="col-lg-4">
                 <h3 className="footer-heading"><span>Our Courses</span></h3>
                 <ul className="list-unstyled">
-                  <li><a href="#">Math</a></li>
-                  <li><a href="#">Science &amp; Engineering</a></li>
-                  <li><a href="#">Arts &amp; Humanities</a></li>
-                  <li><a href="#">Economics &amp; Finance</a></li>
-                  <li><a href="#">Business Administration</a></li>
-                  <li><a href="#">Computer Science</a></li>
+                  <li><a href="#">Data Science & AI</a></li>
+                  <li><a href="#">Data Analytics</a></li>
+                  <li><a href="#">Business Analytics</a></li>
+                  <li><a href="#">Data Science & ML</a></li>
+                  <li><a href="#">Generative AI</a></li>
+                  <li><a href="#">Cyber Security</a></li>
+                  <li><a href="#">Full Stack</a></li>
+                  <li><a href="#">AWS</a></li>
                 </ul>
               </div>
-              <div className="col-lg-3">
+              <div className="col-lg-4">
                 <h3 className="footer-heading"><span>Contact</span></h3>
                 <ul className="list-unstyled">
                   <li><a href="#">Help Center</a></li>
@@ -196,7 +214,7 @@ export function App() {
               <div className="col-12">
                 <div className="copyright">
                   <p>
-                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i className="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i className="icon-heart" aria-hidden="true"></i> by <a href="https://ingrade.com" target="_blank" >InGrade</a>
                   </p>
                 </div>
               </div>
