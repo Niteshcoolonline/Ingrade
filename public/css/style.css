@@ -630,7 +630,7 @@ h1, h2, h3, h4, h5,
       left: 0;
       right: 0;
       bottom: 0;
-      background: #183661;
+      background: #033631;
       opacity: .9;
       z-index: 0; }
     .section-bg.style-1 > .container {
@@ -976,7 +976,7 @@ h1, h2, h3, h4, h5,
   .ftco-subscribe-1:before {
     position: absolute;
     content: "";
-    background: #183661;
+    background: #33631;
     opacity: .7;
     z-index: 1;
     top: 0;

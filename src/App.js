@@ -6,6 +6,7 @@ import Feature3 from './Feature3';
 import Courses2 from './Courses2';
 import Header from './Header';
 import SuccessStories from './SuccessStories';
+import EducationalContent from './EducationalContent';
 
 export function App() {
   return (
@@ -15,9 +16,9 @@ export function App() {
         <Header />
         <Crousal />
         <Courses2 />
-        <Feature3 />
         <br />
-
+        <br />
+        <EducationalContent />
         <SuccessStories />
 
 
@@ -54,7 +55,7 @@ export function App() {
             <div className="row justify-content-center text-center">
               <div className="col-12">
                 <div className="mb-4">
-                  <h2 className="section-title-underline mb-3">
+                  <h2 className="section-title-underline mb-4">
                     <span>Our Hiring Partners</span>
                   </h2>
                   <p className="text-muted fs-md-2 fs-lg-1 fs-xl-2">
@@ -68,7 +69,7 @@ export function App() {
               <div className="col d-flex justify-content-center">
                 <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
                   <img
-                    src="/placeholder.svg"
+                    src="../images/decathelon.png"
                     width="140"
                     height="70"
                     alt="Logo"
@@ -80,7 +81,7 @@ export function App() {
               <div className="col d-flex justify-content-center">
                 <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
                   <img
-                    src="/placeholder.svg"
+                    src="../images/google1.png"
                     width="140"
                     height="70"
                     alt="Logo"
@@ -91,7 +92,7 @@ export function App() {
               <div className="col d-flex justify-content-center">
                 <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
                   <img
-                    src="/placeholder.svg"
+                    src="../images/corus1.png"
                     width="140"
                     height="70"
                     alt="Logo"
@@ -102,7 +103,7 @@ export function App() {
               <div className="col d-flex justify-content-center">
                 <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
                   <img
-                    src="/placeholder.svg"
+                    src="../images/amazon.png"
                     width="140"
                     height="70"
                     alt="Logo"
@@ -113,7 +114,7 @@ export function App() {
               <div className="col d-flex justify-content-center">
                 <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
                   <img
-                    src="/placeholder.svg"
+                    src="../images/turing1.png"
                     width="140"
                     height="70"
                     alt="Logo"
@@ -124,7 +125,18 @@ export function App() {
               <div className="col d-flex justify-content-center">
                 <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
                   <img
-                    src="/placeholder.svg"
+                    src="../images/dexian.png"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              <div className="col d-flex justify-content-center mb-4">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="../images/genpact.png"
                     width="140"
                     height="70"
                     alt="Logo"
@@ -135,7 +147,7 @@ export function App() {
               <div className="col d-flex justify-content-center">
                 <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
                   <img
-                    src="/placeholder.svg"
+                    src="../images/infosys.png"
                     width="140"
                     height="70"
                     alt="Logo"
@@ -146,7 +158,7 @@ export function App() {
               <div className="col d-flex justify-content-center">
                 <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
                   <img
-                    src="/placeholder.svg"
+                    src="../images/citi.png"
                     width="140"
                     height="70"
                     alt="Logo"
@@ -157,7 +169,7 @@ export function App() {
               <div className="col d-flex justify-content-center">
                 <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
                   <img
-                    src="/placeholder.svg"
+                    src="../images/capgemini.png"
                     width="140"
                     height="70"
                     alt="Logo"
@@ -168,7 +180,7 @@ export function App() {
               <div className="col d-flex justify-content-center">
                 <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
                   <img
-                    src="/placeholder.svg"
+                    src="../images/cognizant.jpg"
                     width="140"
                     height="70"
                     alt="Logo"
@@ -179,7 +191,7 @@ export function App() {
               <div className="col d-flex justify-content-center">
                 <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
                   <img
-                    src="/placeholder.svg"
+                    src="../images/hul.png"
                     width="140"
                     height="70"
                     alt="Logo"
@@ -190,7 +202,7 @@ export function App() {
               <div className="col d-flex justify-content-center">
                 <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
                   <img
-                    src="/placeholder.svg"
+                    src="../images/sony.png"
                     width="140"
                     height="70"
                     alt="Logo"
@@ -198,21 +210,10 @@ export function App() {
                   />
                 </div>
               </div>
-              <div className="col d-flex justify-content-center">
+              <div className="col d-flex justify-content-center mb-4">
                 <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
                   <img
-                    src="/placeholder.svg"
-                    width="140"
-                    height="70"
-                    alt="Logo"
-                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
-                  />
-                </div>
-              </div>
-              <div className="col d-flex justify-content-center">
-                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
-                  <img
-                    src="/placeholder.svg"
+                    src="../images/hcl.png"
                     width="140"
                     height="70"
                     alt="Logo"
@@ -221,6 +222,160 @@ export function App() {
                 </div>
               </div>
               {/* End repeat block */}
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="../images/oracle.png"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="../images/goldman.png"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="../images/ey.png"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="../images/lenskart.png"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="../images/itc.png"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="../images/alter.png"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              <div className="col d-flex justify-content-center mb-4">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="../images/microsoft.png"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="../images/ibm.webp"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="../images/pwc.png"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="../images/winzo.jpg"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="../images/algoscale.jpg"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="../images/wipro.jpg"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="https://www.meritshot.com/wp-content/uploads/2023/09/25.png"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
+              <div className="col d-flex justify-content-center">
+                <div className="position-relative overflow-hidden" style={{ width: "8rem", height: "4rem" }}>
+                  <img
+                    src="https://www.meritshot.com/wp-content/uploads/2023/09/26.png"
+                    width="140"
+                    height="70"
+                    alt="Logo"
+                    className="position-absolute top-0 start-0 w-100 h-100 animate-fade-in-out object-fit"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -229,43 +384,49 @@ export function App() {
 
         <div className="site-section ftco-subscribe-1" style={{ backgroundImage: `url(images/bg_1.jpg)` }}>
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center container bg-secondary p-3">
               <div className="col-lg-7">
                 <h2>Book your Demo Session, and Get Amazing Courses
                 Today!!!</h2>
                 <p>Get an amazing career pathway which helps you to excel your career in the best possible way. Access to the community of experts who guide you to get the best out of you.</p>
               </div>
               <div className="col-lg-5">
-              <form>
-              <div class="form-group">
-                  <label for="name" class='label-color'>Name</label>
-                  <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter name" />
-                </div>
-                <div class="form-group">
-                  <label for="email" class='label-color'>Email address</label>
-                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" />
-                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <div class="form-group">
-                  <label for="number" class='label-color'>Phone Number</label>
-                  <input type="text" class="form-control" id="number" aria-describedby="emailHelp" placeholder="Enter email" />
-                  <small id="numberHelp" class="form-text text-muted">We'll never share your number with anyone else.</small>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="type" id="fresher" value="Fresher" />
-                  <label class="form-check-label label-color" for="fresher" >
-                    Fresher
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="type" id="working" value="Working Professional" />
-                  <label class="form-check-label label-color" for="working">
-                    Working Professional
-                  </label>
-                </div>
-                <br />
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
+                <form>
+                  <div class="form-group">
+                    <label for="name" class='label-color'>Name</label>
+                    <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter name" />
+                  </div>
+                  <div class="form-group">
+                    <label for="email" class='label-color'>Email address</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" />
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="number" class='label-color'>Phone Number</label>
+                    <input type="text" class="form-control" id="number" aria-describedby="emailHelp" placeholder="Enter email" />
+                    <small id="numberHelp" class="form-text text-muted">We'll never share your number with anyone else.</small>
+                  </div>
+                  <div class="row">
+                    <div class="col-auto">
+                      <div class="form-check d-flex align-items-center">
+                        <input class="form-check-input" type="radio" name="type" id="fresher" value="Fresher" />
+                        <label class="form-check-label ml-2 label-color" for="fresher">
+                          Fresher
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <div class="form-check d-flex align-items-center">
+                        <input class="form-check-input" type="radio" name="type" id="working" value="Working Professional" />
+                        <label class="form-check-label ml-2 label-color" for="working">
+                          Working Professional
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <br />
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
               </div>
             </div>
           </div>
