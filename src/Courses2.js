@@ -17,16 +17,16 @@ function Courses2() {
               <a className="stretched-a"></a>
             </a>
             <img
-              src="/placeholder.svg"
+              src="../images/dataScienceAndAI.jpeg"
               alt="Data Science & AI"
               width={200}
               height={200}
               className="card-img-top"
             />
             <div className="card-body bg-light">
-              <h3 className="card-title fw-bold">Data Science & AI</h3>
+              <h3 className="card-title fw-bold" style={{'font-size': '1.5rem'}}>Data Science & AI</h3>
               <p className="card-text text-muted">
-                Explore the intersection of data science and artificial intelligence, and learn how to leverage these
+                Explore the intersection of data science and AI, and learn how to leverage these
                 powerful tools to uncover insights and drive innovation.
               </p>
               <div className="text-muted">Duration: 8 weeks</div>
@@ -40,17 +40,16 @@ function Courses2() {
               <a className="stretched-a"></a>
             </a>
             <img
-              src="/placeholder.svg"
+              src="../images/dataAnalytics.jpeg"
               alt="Data Analytics"
               width={200}
               height={200}
               className="card-img-top"
             />
             <div className="card-body bg-light">
-              <h3 className="card-title fw-bold">Data Analytics</h3>
+              <h3 className="card-title fw-bold" style={{'font-size': '1.5rem'}}>Data Analytics</h3>
               <p className="card-text text-muted">
-                Dive into the world of data analytics and learn how to extract valuable insights from complex datasets to
-                drive informed decision-making.
+                Dive deeply in exciting world of data analytics to learn effectively extract valuable insights from complex datasets, enabling strategic decision-making.
               </p>
               <div className="text-muted">Duration: 6 weeks</div>
             </div>
@@ -63,14 +62,14 @@ function Courses2() {
               <a className="stretched-a"></a>
             </a>
             <img
-              src="/placeholder.svg"
+              src="../images/businessAnalytics.jpeg"
               alt="Business Analytics"
               width={200}
               height={200}
               className="card-img-top"
             />
             <div className="card-body bg-light">
-              <h3 className="card-title fw-bold">Business Analytics</h3>
+              <h3 className="card-title fw-bold" style={{'font-size': '1.5rem'}}>Business Analytics</h3>
               <p className="card-text text-muted">
                 Explore the intersection of business strategy and data-driven decision-making, and learn how to leverage
                 analytics to drive organizational success.
@@ -86,40 +85,41 @@ function Courses2() {
               <a className="stretched-a"></a>
             </a>
             <img
-              src="/placeholder.svg"
+              src="../images/DSAndML.jpeg"
               alt="Data Science & ML"
               width={200}
               height={200}
               className="card-img-top"
             />
             <div className="card-body bg-light">
-              <h3 className="card-title fw-bold">Data Science & ML</h3>
+              <h3 className="card-title fw-bold" style={{'font-size': '1.5rem'}}>Data Science & ML</h3>
               <p className="card-text text-muted">
-                Dive deep into the world of machine learning and explore how to build intelligent systems that can learn and
-                adapt from data.
+                Dive deep into the fascinating world of machine learning and explore how to build intelligent systems that can learn, adapt, and innovate from data.
               </p>
               <div className="text-muted">Duration: 12 weeks</div>
             </div>
           </div>
         </div>
-
+      </div>
+      <br />
+      <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
         <div className="col">
           <div className="card shadow-lg rounded-lg overflow-hidden transition-transform duration-300 ease-in-out group d-flex flex-column">
             <a href="#">
               <a className="stretched-a"></a>
             </a>
             <img
-              src="/placeholder.svg"
+              src="../images/generativeAI.jpeg"
               alt="Generative AI"
               width={200}
               height={200}
               className="card-img-top"
             />
             <div className="card-body bg-light">
-              <h3 className="card-title fw-bold">Generative AI</h3>
+              <h3 className="card-title fw-bold" style={{'font-size': '1.5rem'}}>Generative AI</h3>
               <p className="card-text text-muted">
                 Explore the cutting-edge field of generative AI and learn how to create intelligent systems that can
-                generate human-like content and solve complex problems.
+                generate human-like content.
               </p>
               <div className="text-muted">Duration: 8 weeks</div>
             </div>
@@ -132,17 +132,16 @@ function Courses2() {
               <a className="stretched-a"></a>
             </a>
             <img
-              src="/placeholder.svg"
+              src="../images/cybersecurity.jpeg"
               alt="Cyber Security"
               width={200}
               height={200}
               className="card-img-top"
             />
             <div className="card-body bg-light">
-              <h3 className="card-title fw-bold">Cyber Security</h3>
+              <h3 className="card-title fw-bold" style={{'font-size': '1.5rem'}}>Cyber Security</h3>
               <p className="card-text text-muted">
-                Dive into the world of cybersecurity and learn how to protect your digital assets from cyber threats and
-                vulnerabilities.
+              Dive deep into the fascinating world of cybersecurity to learn how to effectively protect your digital assets from cyber threats and vulnerabilities.
               </p>
               <div className="text-muted">Duration: 6 weeks</div>
             </div>
@@ -155,14 +154,14 @@ function Courses2() {
               <a className="stretched-a"></a>
             </a>
             <img
-              src="/placeholder.svg"
+              src="../images/fullstack.jpeg"
               alt="Full Stack"
               width={200}
               height={200}
               className="card-img-top"
             />
             <div className="card-body bg-light">
-              <h3 className="card-title fw-bold">Full Stack</h3>
+              <h3 className="card-title fw-bold" style={{'font-size': '1.5rem'}}>Full Stack</h3>
               <p className="card-text text-muted">
                 Become a full-stack developer and learn how to build end-to-end web applications using a variety of
                 technologies and frameworks.
@@ -178,7 +177,7 @@ function Courses2() {
               <a className="stretched-a"></a>
             </a>
             <img
-              src="/placeholder.svg"
+              src="../images/aws.jpeg"
               alt="AWS"
               width={200}
               height={200}
