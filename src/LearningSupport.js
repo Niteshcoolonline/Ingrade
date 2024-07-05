@@ -3,43 +3,46 @@
  * @see https://v0.dev/t/Rp3vpvP7vtW
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
-export default function EducationalContent() {
+export default function LearningSupport() {
     return (
         <section className="py-12 md:py-24 lg:py-32">
+          <br />
             <div className="container grid gap-8 px-4 md:px-6">
                 <div className="space-y-3 text-center">
                     <div className="row mb-2 justify-content-center text-center">
                         <div className="col-lg-4">
                             <h2 className="section-title-underline">
-                                <span>Educational Content</span>
+                                <span>Learning Support</span>
                             </h2>
                         </div>
                     </div>
                     <p className="max-w-700px text-muted-foreground md:text-xl lg:text-base xl:text-xl mb-5">
-                        Discover our comprehensive educational offerings to help you succeed.
+                    Comprehensive assistance tailored to enhance your learning journey.
                     </p>
                 </div>
-                <div className="row mb-5 justify-content-between text-center">
+                <div className="row mb-5 justify-content-around text-center">
                     <div className="col-lg-3 rounded-lg border bg-light p-6 shadow-sm">
                         <div className="mb-4 d-flex align-items-center justify-content-center">
                             <BookOpenIcon className="h-10 w-10 text-primary" />
                         </div>
-                        <h3 className="mb-2 text-xl font-semibold text-black">Online Classes</h3>
-                        <p className="text-muted-foreground">Engage in interactive online classes with experienced instructors.</p>
+                        <h3 className="mb-2 text-xl font-semibold text-black">Mentorship</h3>
+                        <p className="text-muted-foreground">We provide personalized one-on-one mentoring sessions, acedemic advising, career counseling, 
+                          and a vibrant community for collaboration.</p>
                     </div>
                     <div className="col-lg-3 rounded-lg border bg-light p-6 shadow-sm">
                         <div className="mb-4 d-flex align-items-center justify-content-center">
                             <FileTextIcon className="h-10 w-10 text-primary" />
                         </div>
-                        <h3 className="mb-2 text-xl font-semibold text-black">Study Material</h3>
-                        <p className="text-muted-foreground">Access a wide range of study materials to support your learning.</p>
+                        <h3 className="mb-2 text-xl font-semibold text-black">Tutoring Services</h3>
+                        <p className="text-muted-foreground">On demand tutoring for difficult topics and scheduled tutoring sessions 
+                          with qualified instructors, ensuring learners get the help they need exactly when they needed.</p>
                     </div>
                     <div className="col-lg-3 rounded-lg border bg-light p-6 shadow-sm">
                         <div className="mb-4 d-flex align-items-center justify-content-center">
                             <CircleCheckIcon className="h-10 w-10 text-primary" />
                         </div>
-                        <h3 className="mb-2 text-xl font-semibold text-black">Regular Quizzes</h3>
-                        <p className="text-muted-foreground">Assess your understanding with regular quizzes and tests.</p>
+                        <h3 className="mb-2 text-xl font-semibold text-black">Skills Development</h3>
+                        <p className="text-muted-foreground">Soft skill training emphasizes communication and presentation, enhancing professional interactions and impactful delivery.</p>
                     </div>
                 </div>
             </div>
