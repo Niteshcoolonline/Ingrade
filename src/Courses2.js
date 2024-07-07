@@ -3,7 +3,7 @@ import React from 'react'
 function Courses2() {
   return (
     <section className="container py-4">
-      <div className="row mb-5 justify-content-center text-center">
+      <div className="row mb-5 justify-content-center text-center" id='course'>
         <div className="col-lg-4 mb-5">
           <h2 className="section-title-underline mb-1">
             <span>Popular Courses</span>
@@ -102,7 +102,7 @@ function Courses2() {
         </div>
       </div>
       <br />
-      <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+      <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4" id='coursebelow'>
         <div className="col">
           <div className="card shadow-lg rounded-lg overflow-hidden transition-transform duration-300 ease-in-out group d-flex flex-column">
             <a href="#">

@@ -16,29 +16,26 @@ function Header() {
                 <nav className="site-navigation position-relative text-right" role="navigation">
                   <ul className="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                     <li className="has-children">
-                      <a href="about.html" className="nav-link text-left">Courses</a>
+                      <a href="#course" className="nav-link text-left">Courses</a>
                       <ul className="dropdown">
-                        <li><a href="teachers.html">Data Science & AI</a></li>
-                        <li><a href="about.html">Data Analytics</a></li>
-                        <li><a href="teachers.html">Business Analytics</a></li>
-                        <li><a href="about.html">Data Science & ML</a></li>
-                        <li><a href="teachers.html">Generative AI</a></li>
-                        <li><a href="about.html">Cyber Security</a></li>
-                        <li><a href="teachers.html">Full Stack</a></li>
-                        <li><a href="about.html">AWS</a></li>
+                        <li><a href="#course">Data Science & AI</a></li>
+                        <li><a href="#course">Data Analytics</a></li>
+                        <li><a href="#course">Business Analytics</a></li>
+                        <li><a href="#course">Data Science & ML</a></li>
+                        <li><a href="#coursebelow">Generative AI</a></li>
+                        <li><a href="#coursebelow">Cyber Security</a></li>
+                        <li><a href="#coursebelow">Full Stack</a></li>
+                        <li><a href="#coursebelow">AWS</a></li>
                       </ul>
                     </li>
                     <li>
-                      <a href="admissions.html" className="nav-link text-left">Admissions</a>
+                      <a href="#demoform" className="nav-link text-left">Contact Us</a>
                     </li>
                     <li>
-                      <a href="courses.html" className="nav-link text-left">Contact Us</a>
+                      <a href="#aboutingrade" className="nav-link text-left">About Us</a>
                     </li>
                     <li>
-                      <a href="contact.html" className="nav-link text-left">About Us</a>
-                    </li>
-                    <li>
-                      <a href="contact.html" className="nav-link text-left">Success Stories</a>
+                      <a href="#successstories" className="nav-link text-left">Success Stories</a>
                     </li>
                   </ul>
                 </nav>

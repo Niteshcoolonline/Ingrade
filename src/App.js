@@ -12,6 +12,7 @@ import ComingStrategies from './ComingStrategies';
 import DemoForm from './DemoForm';
 import HiringPartner from './HiringPartner';
 import Footer from './Footer';
+import AboutUs from './AboutUs';
 
 export function App() {
   return (
@@ -34,6 +35,7 @@ export function App() {
         <HiringPartner />
         <br />
         <br />
+        <AboutUs /> 
         <Footer />
       </div>
     </div>

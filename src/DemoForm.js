@@ -2,7 +2,7 @@ import React from 'react'
 
 function DemoForm() {
   return (
-    <div className="site-section ftco-subscribe-1" style={{ backgroundImage: `url(images/bg_1.jpg)` }}>
+    <div className="site-section ftco-subscribe-1" id='demoform' style={{ backgroundImage: `url(images/bg_1.jpg)` }}>
           <div className="container">
             <div className="row align-items-center container bg-secondary p-3">
               <div className="col-lg-7">

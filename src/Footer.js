@@ -4,33 +4,45 @@ function Footer() {
   return (
     <div className="footer">
           <div className="container">
-            <div className="row">
-              <div className="col-lg-4">
+            <div className="row align-content-center center justify-content-around">
+              <div className="">
                 <p className="mb-4"><img src="images/logo4.jpg" alt="Image" className="img-fluid" /></p>
                 <p>Fast Forward your career in Tech Fields with InGrade
                 Best-in-class Training Programs</p>
               </div>
-              <div className="col-lg-4">
+              <div className="">
                 <h3 className="footer-heading"><span>Our Courses</span></h3>
                 <ul className="list-unstyled">
-                  <li><a href="#">Data Science & AI</a></li>
-                  <li><a href="#">Data Analytics</a></li>
-                  <li><a href="#">Business Analytics</a></li>
-                  <li><a href="#">Data Science & ML</a></li>
-                  <li><a href="#">Generative AI</a></li>
-                  <li><a href="#">Cyber Security</a></li>
-                  <li><a href="#">Full Stack</a></li>
-                  <li><a href="#">AWS</a></li>
+                  <li><a href="#course">Data Science & AI</a></li>
+                  <li><a href="#course">Data Analytics</a></li>
+                  <li><a href="#course">Business Analytics</a></li>
+                  <li><a href="#course">Data Science & ML</a></li>
+                  <li><a href="#coursebelow">Generative AI</a></li>
+                  <li><a href="#coursebelow">Cyber Security</a></li>
+                  <li><a href="#coursebelow">Full Stack</a></li>
+                  <li><a href="#coursebelow">AWS</a></li>
                 </ul>
               </div>
-              <div className="col-lg-4">
-                <h3 className="footer-heading"><span>Contact</span></h3>
+              <div className="">
+                <h3 className="footer-heading"><span>Resources</span></h3>
                 <ul className="list-unstyled">
-                  <li><a href="#">Help Center</a></li>
-                  <li><a href="#">Support Community</a></li>
-                  <li><a href="#">Press</a></li>
-                  <li><a href="#">Share Your Story</a></li>
-                  <li><a href="#">Our Supporters</a></li>
+                  <li><a href="#">Terms of Services</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Get in Touch</a></li>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Contact us</a></li>
+                  <li><a href="#">Success Stories</a></li>
+                </ul>
+              </div>
+              <div className="">
+                <h3 className="footer-heading"><span>Follow us on</span></h3>
+                <ul className="list-unstyled">
+                  <li><a href="#">linkedin</a></li>
+                  <li><a href="#">Instagram</a></li>
+                  <li><a href="#">Twitter</a></li>
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">Youtube</a></li>
+                  <li><a href="#">Quora</a></li>
                 </ul>
               </div>
             </div>

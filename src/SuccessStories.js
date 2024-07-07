@@ -2,7 +2,7 @@ import React from 'react'
 
 function SuccessStories() {
   return (
-    <div className="site-section">
+    <div className="site-section" id='successstories'>
           <div className="container">
             <div className="row mb-5 justify-content-center text-center">
               <div className="col-lg-8">
