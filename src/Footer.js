@@ -26,11 +26,10 @@ function Footer() {
               <div className="">
                 <h3 className="footer-heading"><span>Resources</span></h3>
                 <ul className="list-unstyled">
-                  <li><a href="#">Terms of Services</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-                  <li><a href="#">Get in Touch</a></li>
+                  <li><a href="#" data-toggle="modal" data-target=".terms-modal">Terms of Services</a></li>
+                  <li><a href="#" data-toggle="modal" data-target=".privacy-modal">Privacy Policy</a></li>
                   <li><a href="#aboutingrade">About us</a></li>
-                  <li><a href="#demoform">Contact us</a></li>
+                  <li><a href="#demoform">Get in Touch</a></li>
                   <li><a href="#successstories">Success Stories</a></li>
                 </ul>
               </div>
@@ -39,10 +38,10 @@ function Footer() {
                 <ul className="list-unstyled">
                   <li><a href="https://www.linkedin.com/company/ingrade-learning/">linkedin</a></li>
                   <li><a href="https://www.instagram.com/ingrade_learning?igsh=NWpnbzBpd3g4dnlo">Instagram</a></li>
-                  <li><a href="#">Twitter</a></li>
+                  <li><a href="https://x.com/IngradeLearning">Twitter</a></li>
                   <li><a href="https://www.facebook.com/profile.php?id=61560326330457">Facebook</a></li>
                   <li><a href="https://www.youtube.com/@InGrade">Youtube</a></li>
-                  <li><a href="#">Quora</a></li>
+                  <li><a href="https://www.quora.com/profile/Ingrade-2">Quora</a></li>
                 </ul>
               </div>
             </div>
@@ -57,6 +56,51 @@ function Footer() {
               </div>
             </div>
           </div>
+
+          <div class="modal fade terms-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-black" id="exampleModalLabel">Terms of Services</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+
+              <div class="modal-body">
+              <h6 className='text-black'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                Why do we use it?
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+              </h6>
+            </div>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="modal fade privacy-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-black" id="exampleModalLabel">Terms of Services</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+
+              <div class="modal-body">
+              <h6 className='text-black'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                Why do we use it?
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                privacy
+              </h6>
+            </div>
+
+              </div>
+            </div>
+          </div>
+
         </div>
   )
 }
