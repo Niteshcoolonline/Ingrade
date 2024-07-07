@@ -20,22 +20,22 @@ export default function EducationalContent() {
                     </p>
                 </div>
                 <div className="row mb-5 justify-content-between text-center">
-                    <div className="col-lg-3 rounded-lg border bg-light p-6 shadow-sm">
-                        <div className="mb-4 d-flex align-items-center justify-content-center">
+                    <div className="col-lg-3 rounded-lg border bg-light p-6 shadow-sm rounded">
+                        <div className="mb-4 d-flex align-items-center justify-content-center mt-4">
                             <img src='../images/OnlineClasses.png' className="img-w-25 text-primary" />
                         </div>
                         <h3 className="mb-2 text-xl font-semibold text-black">Online Classes</h3>
                         <p className="text-muted-foreground">Engage in interactive online classes with experienced instructors.</p>
                     </div>
-                    <div className="col-lg-3 rounded-lg border bg-light p-6 shadow-sm">
-                        <div className="mb-4 d-flex align-items-center justify-content-center">
+                    <div className="col-lg-3 rounded-lg border bg-light p-6 shadow-sm rounded">
+                        <div className="mb-4 d-flex align-items-center justify-content-center mt-4">
                           <img src='../images/StudyMaterial.png' className="img-w-25 text-primary" />
                         </div>
                         <h3 className="mb-2 text-xl font-semibold text-black">Study Material</h3>
                         <p className="text-muted-foreground">Access a wide range of study materials to support your learning.</p>
                     </div>
-                    <div className="col-lg-3 rounded-lg border bg-light p-6 shadow-sm">
-                        <div className="mb-4 d-flex align-items-center justify-content-center">
+                    <div className="col-lg-3 rounded-lg border bg-light p-6 shadow-sm rounded">
+                        <div className="mb-4 d-flex align-items-center justify-content-center mt-4">
                           <img src='../images/quiz.png' className="img-w-25 text-primary" />
                         </div>
                         <h3 className="mb-2 text-xl font-semibold text-black">Regular Quizzes</h3>

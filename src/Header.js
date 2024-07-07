@@ -43,10 +43,12 @@ function Header() {
               </div>
               <div className="ml-auto">
                 <div className="social-wrap">
-                  <a href="#"><span className="icon-facebook"></span></a>
+                  <a href="https://www.facebook.com/profile.php?id=61560326330457"><span className="icon-facebook"></span></a>
                   <a href="#"><span className="icon-twitter"></span></a>
-                  <a href="#"><span className="icon-linkedin"></span></a>
-
+                  <a href="https://www.linkedin.com/company/ingrade-learning/"><span className="icon-linkedin"></span></a>
+                  <a href="https://www.instagram.com/ingrade_learning?igsh=NWpnbzBpd3g4dnlo"><span className="icon-instagram"></span></a>
+                  <a href="#"><span className="icon-quora"></span></a>
+                  <a href="https://www.youtube.com/@InGrade"><span className="icon-youtube"></span></a>
                   <a href="#" className="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
                     className="icon-menu h3"></span></a>
                 </div>

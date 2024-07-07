@@ -18,19 +18,26 @@ function ComingStrategies() {
           <div className="container">
             <div className="d-flex justify-content-center" style={{gap: '100px'}}>
               <div className="col-md-4 educationalContentCard">
-                <img src='../images/ExperiantialLearning.png' className="img-w-25 text-primary" />
-                <h3>Experiential Learning</h3>
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                  <img src='../images/ExperiantialLearning.png' className="img-w-25 text-primary mt-4" />                
+                  <h3>Experiential Learning</h3>
+                </div>
                 <p>Access of real-world projects and case studies, along with internship opportunities at partner companies, to gain practical experience and industry connections.</p>
+                
               </div>
               <div className="col-md-4 educationalContentCard">
-                <img src='../images/CertificationProgram.png' className="img-w-25 text-primary" />
+              <div class="d-flex flex-column justify-content-center align-items-center">
+                <img src='../images/CertificationProgram.png' className="img-w-25 text-primary mt-4"/>
                 <h3>Certification Programs</h3>
+                </div>
                 <p>Learners receive an accredited certification upon course completion, alongside badges and micro-credentials highlighting specific skills gained.
                 </p>
               </div>
               <div className="col-md-4 educationalContentCard">
-                <img src='../images/CareerServices.png' className="img-w-25 text-primary" />
+              <div class="d-flex flex-column justify-content-center align-items-center">
+                <img src='../images/CareerServices.png' className="img-w-25 text-primary mt-4"/>
                 <h3>Career Services</h3>
+                </div>
                 <p>Guidance on resume building and job application strategies, as well as thorough interview preparation through mock interviews to enhance their readiness for career opportunities.</p>
               </div>
             </div>

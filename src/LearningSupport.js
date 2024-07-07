@@ -21,24 +21,24 @@ export default function LearningSupport() {
                     </p>
                 </div>
                 <div className="row mb-5 justify-content-around text-center">
-                    <div className="col-lg-3 rounded-lg border bg-light p-6 shadow-sm">
-                        <div className="mb-4 d-flex align-items-center justify-content-center">
+                    <div className="col-lg-3 rounded-lg border bg-light p-6 shadow-sm rounded">
+                        <div className="mb-4 d-flex align-items-center justify-content-center mt-4">
                           <img src='../images/mentorship.png' className="img-w-25 text-primary" />
                         </div>
                         <h3 className="mb-2 text-xl font-semibold text-black">Mentorship</h3>
                         <p className="text-muted-foreground">We provide personalized one-on-one mentoring sessions, acedemic advising, career counseling, 
                           and a vibrant community for collaboration.</p>
                     </div>
-                    <div className="col-lg-3 rounded-lg border bg-light p-6 shadow-sm">
-                        <div className="mb-4 d-flex align-items-center justify-content-center">
+                    <div className="col-lg-3 rounded-lg border bg-light p-6 shadow-sm rounded">
+                        <div className="mb-4 d-flex align-items-center justify-content-center mt-4">
                           <img src='../images/Tutoring.png' className="img-w-25 text-primary" />
                         </div>
                         <h3 className="mb-2 text-xl font-semibold text-black">Tutoring Services</h3>
                         <p className="text-muted-foreground">On demand tutoring for difficult topics and scheduled tutoring sessions 
                           with qualified instructors, ensuring learners get the help they need exactly when they needed.</p>
                     </div>
-                    <div className="col-lg-3 rounded-lg border bg-light p-6 shadow-sm">
-                        <div className="mb-4 d-flex align-items-center justify-content-center">
+                    <div className="col-lg-3 rounded-lg border bg-light p-6 shadow-sm rounded">
+                        <div className="mb-4 d-flex align-items-center justify-content-center mt-4">
                           <img src='../images/SkillsDev.png' className="img-w-25 text-primary" />
                         </div>
                         <h3 className="mb-2 text-xl font-semibold text-black">Skills Development</h3>

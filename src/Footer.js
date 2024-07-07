@@ -29,19 +29,19 @@ function Footer() {
                   <li><a href="#">Terms of Services</a></li>
                   <li><a href="#">Privacy Policy</a></li>
                   <li><a href="#">Get in Touch</a></li>
-                  <li><a href="#">About us</a></li>
-                  <li><a href="#">Contact us</a></li>
-                  <li><a href="#">Success Stories</a></li>
+                  <li><a href="#aboutingrade">About us</a></li>
+                  <li><a href="#demoform">Contact us</a></li>
+                  <li><a href="#successstories">Success Stories</a></li>
                 </ul>
               </div>
               <div className="">
                 <h3 className="footer-heading"><span>Follow us on</span></h3>
                 <ul className="list-unstyled">
-                  <li><a href="#">linkedin</a></li>
-                  <li><a href="#">Instagram</a></li>
+                  <li><a href="https://www.linkedin.com/company/ingrade-learning/">linkedin</a></li>
+                  <li><a href="https://www.instagram.com/ingrade_learning?igsh=NWpnbzBpd3g4dnlo">Instagram</a></li>
                   <li><a href="#">Twitter</a></li>
-                  <li><a href="#">Facebook</a></li>
-                  <li><a href="#">Youtube</a></li>
+                  <li><a href="https://www.facebook.com/profile.php?id=61560326330457">Facebook</a></li>
+                  <li><a href="https://www.youtube.com/@InGrade">Youtube</a></li>
                   <li><a href="#">Quora</a></li>
                 </ul>
               </div>
