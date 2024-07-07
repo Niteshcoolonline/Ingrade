@@ -29,7 +29,7 @@ function Courses2() {
                 Explore the intersection of data science and AI, and learn how to leverage these
                 powerful tools to uncover insights and drive innovation.
               </p>
-              <div className="text-muted text-black">Duration: 8 weeks</div>
+              <h5 className="text-muted text-black text-bold">Duration: 12 Months</h5>
             </div>
           </div>
         </div>
@@ -51,7 +51,7 @@ function Courses2() {
               <p className="card-text text-muted">
                 Dive deeply in exciting world of data analytics to learn effectively extract valuable insights from complex datasets, enabling strategic decision-making.
               </p>
-              <div className="text-muted text-black">Duration: 6 weeks</div>
+              <h5 className="text-muted text-black text-bold">Duration: 6 Months</h5>
             </div>
           </div>
         </div>
@@ -74,7 +74,7 @@ function Courses2() {
                 Explore the intersection of business strategy and data-driven decision-making, and learn how to leverage
                 analytics to drive organizational success.
               </p>
-              <div className="text-muted text-black">Duration: 10 weeks</div>
+              <h5 className="text-muted text-black text-bold">Duration: 6 Months</h5>
             </div>
           </div>
         </div>
@@ -96,7 +96,7 @@ function Courses2() {
               <p className="card-text text-muted">
                 Dive deep into the fascinating world of machine learning and explore how to build intelligent systems that can learn, adapt, and innovate from data.
               </p>
-              <div className="text-muted text-black">Duration: 12 weeks</div>
+              <h5 className="text-muted text-black text-bold">Duration: 8 Months</h5>
             </div>
           </div>
         </div>
@@ -121,7 +121,7 @@ function Courses2() {
                 Explore the cutting-edge field of generative AI and learn how to create intelligent systems that can
                 generate human-like content.
               </p>
-              <div className="text-muted text-black">Duration: 8 weeks</div>
+              <h5 className="text-muted text-black text-bold">Duration: 11 Months</h5>
             </div>
           </div>
         </div>
@@ -143,7 +143,7 @@ function Courses2() {
               <p className="card-text text-muted">
               Dive deep into the fascinating world of cybersecurity to learn how to effectively protect your digital assets from cyber threats and vulnerabilities.
               </p>
-              <div className="text-muted text-black">Duration: 6 weeks</div>
+              <h5 className="text-muted text-black text-bold">Duration: 8 Months</h5>
             </div>
           </div>
         </div>
@@ -166,7 +166,7 @@ function Courses2() {
                 Become a full-stack developer and learn how to build end-to-end web applications using a variety of
                 technologies and frameworks.
               </p>
-              <div className="text-muted text-black">Duration: 12 weeks</div>
+              <h5 className="text-muted text-black text-bold">Duration: 11 Months</h5>
             </div>
           </div>
         </div>
@@ -189,7 +189,7 @@ function Courses2() {
                 Dive into the world of Amazon Web Services (AWS) and learn how to leverage the power of cloud computing to
                 build scalable and reliable applications.
               </p>
-              <div className="text-muted text-black">Duration: 10 weeks</div>
+              <h5 className="text-muted text-black text-bold">Duration: 8 Months</h5>
             </div>
           </div>
         </div>

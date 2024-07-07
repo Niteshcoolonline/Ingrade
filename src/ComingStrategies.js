@@ -18,18 +18,18 @@ function ComingStrategies() {
           <div className="container">
             <div className="d-flex justify-content-center" style={{gap: '100px'}}>
               <div className="col-md-4 educationalContentCard">
-                <span className="icon flaticon-mortarboard"></span>
+                <img src='../images/ExperiantialLearning.png' className="img-w-25 text-primary" />
                 <h3>Experiential Learning</h3>
                 <p>Access of real-world projects and case studies, along with internship opportunities at partner companies, to gain practical experience and industry connections.</p>
               </div>
               <div className="col-md-4 educationalContentCard">
-                <span className="icon flaticon-school-material"></span>
+                <img src='../images/CertificationProgram.png' className="img-w-25 text-primary" />
                 <h3>Certification Programs</h3>
                 <p>Learners receive an accredited certification upon course completion, alongside badges and micro-credentials highlighting specific skills gained.
                 </p>
               </div>
               <div className="col-md-4 educationalContentCard">
-                <span className="icon flaticon-library"></span>
+                <img src='../images/CareerServices.png' className="img-w-25 text-primary" />
                 <h3>Career Services</h3>
                 <p>Guidance on resume building and job application strategies, as well as thorough interview preparation through mock interviews to enhance their readiness for career opportunities.</p>
               </div>
